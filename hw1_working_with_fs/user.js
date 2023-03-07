@@ -15,7 +15,7 @@ function registerDate(path,userArray) {
             userArray[i].isActive = false            
         }
     }
-    fs.appendFileSync(path, JSON.stringify(userArray));
+    fs.writeFileSync(path, JSON.stringify(userArray));
 }
 
 function deleteUser(path,username) {
@@ -36,8 +36,9 @@ function deleteUser(path,username) {
 function inActive(path) {
     let data = fs.readFileSync(path, { encoding: "utf-8" });
     let parsedData = JSON.parse(data);
+
     for (let i = 0; i < parsedData.length; i++) {
-        if (parsedData[i].isActive == false) {
+        if (!parsedData[i].isActive) {
             const index = parsedData.indexOf(parsedData[i]);
             if (index > -1) {
                 parsedData.splice(index, 1);
