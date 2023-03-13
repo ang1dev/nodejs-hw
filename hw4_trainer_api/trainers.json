@@ -1,0 +1,31 @@
+[
+    {
+        "id": "7d5b0d41-25bb-4cec-b371-3f3efed42946",
+        "firstName": "Jessica",
+        "lastName": "Delhi",
+        "email": "jessica.d@gmail.com",
+        "isCurrentlyTeaching": false,
+        "timeEmployed": "2year and 1 months",
+        "coursesFinished": 3
+    },
+
+    {
+        "id": "16f48e1e-1262-4a9b-aeaa-b4bb0f82d482",
+        "firstName": "Mario",
+        "lastName": "Casas",
+        "email": "mar.casas@gmail.com",
+        "isCurrentlyTeaching": true,
+        "timeEmployed": "4 years",
+        "coursesFinished": 5
+    },
+
+    {
+        "id": "89b9356a-d1e5-4057-8781-ec333cffe9de",
+        "firstName": "Ver",
+        "lastName": "Mas",
+        "email": "vas.mas@gmail.com",
+        "isCurrentlyTeaching": true,
+        "timeEmployed": "10 years",
+        "coursesFinished": 10
+    }
+]
